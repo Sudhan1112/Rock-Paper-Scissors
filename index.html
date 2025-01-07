@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="Main_box">
-        <p class="p1">Rock Paper Scissor</p>
-        <p class="p2">Computer Choice: <span class="P2"></span></p>
-        <p class="p3">Your Choice: <span class="P3"></span></p>
-        <div>
-            <button id="rock">
-                Rock
-            </button>
-            <button id="paper">
-                Paper
-            </button>
-            <button id="scissor">
-                Scissor
-            </button>
+    <div id="game-container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="scoreboard">
+            <p>Player Score: <span id="player-score">0</span></p>
+            <p>Computer Score: <span id="computer-score">0</span></p>
         </div>
-        <div>RESULT: <span id="result"></span></div>
+        <div class="choices">
+            <p>Your Choice: <span class="user-choice">-</span></p>
+            <p>Computer's Choice: <span class="computer-choice">-</span></p>
+        </div>
+        <div class="buttons">
+            <button id="rock">✊ Rock</button>
+            <button id="paper">✋ Paper</button>
+            <button id="scissor">✌️ Scissor</button>
+        </div>
+        <div class="result-container">
+            <p>Result: <span id="result">Make your move!</span></p>
+        </div>
+        <button id="reset" class="reset-btn">Reset Game</button>
     </div>
     <script src="script.js"></script>
 </body>
