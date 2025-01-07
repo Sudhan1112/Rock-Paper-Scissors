@@ -1,4 +1,3 @@
-/* General styles */
 body {
     background-color: #000;
     font-family: 'Arial', sans-serif;
@@ -10,7 +9,6 @@ body {
     color: #fff;
 }
 
-/* Game container */
 #game-container {
     background: #222;
     color: #fff;
@@ -21,15 +19,13 @@ body {
     width: 350px;
 }
 
-/* Heading */
 h1 {
     font-size: 2.2em;
     font-weight: bold;
-    color: #00e676; /* Neon Green */
+    color: #00e777; 
     margin-bottom: 20px;
 }
 
-/* Scoreboard */
 .scoreboard {
     display: flex;
     justify-content: space-between;
@@ -39,10 +35,9 @@ h1 {
 }
 
 .scoreboard span {
-    color: #00e676; /* Neon Green */
+    color: #00e676; 
 }
 
-/* Choices display */
 .choices {
     background: #333;
     border-radius: 10px;
@@ -59,12 +54,12 @@ h1 {
 .user-choice,
 .computer-choice {
     font-weight: bold;
-    color: #00e676; /* Neon Green */
+    color: #00e676; 
 }
 
 /* Buttons */
 .buttons button {
-    background: #00e676; /* Neon Green */
+    background: #00e676; 
     border: none;
     border-radius: 5px;
     color: #000;
@@ -76,7 +71,7 @@ h1 {
 }
 
 .buttons button:hover {
-    background: #8bc34a; /* Lighter Green */
+    background: #8bc34a;
     transform: translateY(-2px);
 }
 
@@ -84,7 +79,6 @@ h1 {
     transform: translateY(1px);
 }
 
-/* Result */
 .result-container {
     margin: 15px 0;
     font-size: 1.2em;
@@ -92,10 +86,9 @@ h1 {
 
 .result-container span {
     font-weight: bold;
-    color: #8bc34a; /* Lighter Green */
+    color: #8bc34a; 
 }
 
-/* Reset button */
 .reset-btn {
     background: #333;
     border: none;
